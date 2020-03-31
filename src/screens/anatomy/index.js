@@ -14,7 +14,6 @@ import {
   List
 } from "native-base";
 import styles from "./styles";
-import "./simple";
 
 const datasSentences = [
   {

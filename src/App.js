@@ -138,20 +138,20 @@ import Actionsheet from "./screens/actionsheet";
 import NHAccordion from "./screens/accordion/";
 import NHDatePicker from "./screens/datepicker/";
 
-import Simple from "./screens/anatomy/simple";
-import Passive from "./screens/anatomy/passive";
-import Wish from "./screens/anatomy/wish";
-import Conditional from "./screens/anatomy/conditional";
-import Compare from "./screens/anatomy/compare";
-import RelativeClause from "./screens/anatomy/relativeclause";
-import TagQuestion from "./screens/anatomy/tagquestion";
-import Rewrite from "./screens/anatomy/rewrite";
+import Simple from "./screens/simple/";
+import Passive from "./screens/passive/";
+import Wish from "./screens/wish/";
+import Conditional from "./screens/conditional/";
+import Compare from "./screens/compare/";
+import RelativeClause from "./screens/relativeclause/";
+import TagQuestion from "./screens/tagquestion/";
+import Rewrite from "./screens/rewrite/";
 
-import Noun from "./screens/anatomy/noun";
-import Verb from "./screens/anatomy/verb";
-import Adjactive from "./screens/anatomy/adjactive";
-import Adverb from "./screens/anatomy/adverb";
-import Preposition from "./screens/anatomy/preposition";
+import Noun from "./screens/noun/";
+import Verb from "./screens/verb/";
+import Adjactive from "./screens/adjactive/";
+import Adverb from "./screens/adverb/";
+import Preposition from "./screens/preposition/";
 
 const Drawer = createDrawerNavigator(
   {
