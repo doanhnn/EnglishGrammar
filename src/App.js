@@ -138,6 +138,21 @@ import Actionsheet from "./screens/actionsheet";
 import NHAccordion from "./screens/accordion/";
 import NHDatePicker from "./screens/datepicker/";
 
+import Simple from "./screens/anatomy/simple";
+import Passive from "./screens/anatomy/passive";
+import Wish from "./screens/anatomy/wish";
+import Conditional from "./screens/anatomy/conditional";
+import Compare from "./screens/anatomy/compare";
+import RelativeClause from "./screens/anatomy/relativeclause";
+import TagQuestion from "./screens/anatomy/tagquestion";
+import Rewrite from "./screens/anatomy/rewrite";
+
+import Noun from "./screens/anatomy/noun";
+import Verb from "./screens/anatomy/verb";
+import Adjactive from "./screens/anatomy/adjactive";
+import Adverb from "./screens/anatomy/adverb";
+import Preposition from "./screens/anatomy/preposition";
+
 const Drawer = createDrawerNavigator(
   {
 
@@ -303,7 +318,22 @@ const AppNavigator = createStackNavigator(
     AccordionIcon: { screen: AccordionIcon },
     AccordionIconStyle: { screen: AccordionIconStyle },
     AccordionHeaderContentStyle: { screen: AccordionHeaderContentStyle },
-    AccordionCustomHeaderContent: { screen: AccordionCustomHeaderContent }
+    AccordionCustomHeaderContent: { screen: AccordionCustomHeaderContent },
+
+    Simple: { screen: Simple },
+    Passive: { screen: Passive },
+    Wish: { screen: Wish },
+    Conditional: { screen: Conditional },
+    Compare: { screen: Compare },
+    RelativeClause: { screen: RelativeClause },
+    TagQuestion: { screen: TagQuestion },
+    Rewrite: { screen: Rewrite },
+
+    Noun: { screen: Noun },
+    Verb: { screen: Verb },
+    Adjactive: { screen: Adjactive },
+    Adverb: { screen: Adverb },
+    Preposition: { screen: Preposition },
   },
   {
     initialRouteName: "Drawer",

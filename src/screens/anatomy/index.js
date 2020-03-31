@@ -14,18 +14,19 @@ import {
   List
 } from "native-base";
 import styles from "./styles";
+import "./simple";
 
 const datasSentences = [
   {
-    route: "Header1",
+    route: "Simple",
     text: "1.Các thì trong tiếng Anh"
   },
   {
-    route: "Header2",
+    route: "Passive",
     text: "2.Câu bị động"
   },
   {
-    route: "Header3",
+    route: "Wish",
     text: "3.Câu ước"
   },
   {
@@ -33,15 +34,15 @@ const datasSentences = [
     text: "4.Câu gián tiếp"
   },
   {
-    route: "Header5",
+    route: "Conditional",
     text: "5.Câu điều kiện"
   },
   {
-    route: "Header6",
+    route: "Compare",
     text: "6.Câu so sánh"
   },
   {
-    route: "Header7",
+    route: "RelativeClause",
     text: "7.Mệnh đề quan hệ"
   },
   {
@@ -49,7 +50,7 @@ const datasSentences = [
     text: "8.Câu cảm thán"
   },
   {
-    route: "HeaderSpan",
+    route: "TagQuestion",
     text: "9.Câu hỏi đuôi"
   },
   {
@@ -65,7 +66,7 @@ const datasSentences = [
     text: "12.Câu nhấn mạnh (câu chẻ)"
   },
   {
-     route: "HeaderTransparent",
+     route: "Rewrite",
      text: "13.Công thức viết lại câu"
   },
   {
@@ -84,23 +85,23 @@ const datasWords = [
     text: "1.Bảng động từ bất quy tắc"
   },
   {
-    route: "Header2",
+    route: "Noun",
     text: "2.Danh từ"
   },
   {
-    route: "Header3",
+    route: "Verb",
     text: "3.Động từ"
   },
   {
-    route: "Header4",
+    route: "Adjactive",
     text: "4.Tính từ"
   },
   {
-    route: "Header5",
+    route: "Adverb",
     text: "5.Trạng từ"
   },
   {
-    route: "Header6",
+    route: "Preposition",
     text: "6.Giới từ"
   },
   {
