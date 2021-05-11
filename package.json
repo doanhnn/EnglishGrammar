@@ -34,7 +34,7 @@
     "color": "1.0.3",
     "expo-cli": "^3.16.1",
     "global": "^4.4.0",
-    "lodash": "4.17.13",
+    "lodash": "4.17.21",
     "moment": "2.19.3",
     "native-base": "2.12.1",
     "prop-types": "^15.6.2",
